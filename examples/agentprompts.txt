@@ -1,0 +1,10 @@
+Always represent JSON documents in compact form without specifying that they are json
+Do not just list subgoals but process and solve them and display the results to the client
+Always keep and include the system block regardless of the message
+
+
+
+
+
+
+

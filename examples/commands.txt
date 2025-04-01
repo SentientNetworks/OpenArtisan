@@ -1,0 +1,45 @@
+C - AI - C
+{"target": "system", "system": { "chain": ["client", "AI", "client"], "method": ["none", "prompt", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+
+C - M - C get
+{"target": "system", "system": { "chain": ["client", "memory", "client"], "method": ["none", "get", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+
+C - M - C get
+{"target": "system", "system": { "chain": ["client", "memory", "client"], "method": ["none", "get", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+Test queries
+{ "query": { "broadcast": "True" }}
+
+C - M - C put
+{"target": "system", "system": { "chain": ["client", "memory", "client"], "method": ["none", "put", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C- F - C
+{"target": "system", "system": { "chain": ["client", "functions", "client"], "method": ["none", "run", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C - AI - M - C
+{"target": "system", "system": { "chain": ["client", "AI", "memory", "client"], "method": ["none", "prompt", "get", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C - AI - M - AI - C
+{"target": "system", "system": { "chain": ["client", "AI", "memory", "AI", "client"], "method": ["none", "prompt", "get", "prompt", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C - AI - F - AI - C
+{"target": "system", "system": { "chain": ["client", "AI", "functions", "AI", "client"], "method": ["none", "prompt", "run", "prompt", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C - AI - F - C
+{"target": "system", "system": { "chain": ["client", "AI", "functions", "client"], "method": ["none", "prompt", "run", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C - AI 
+{"target": "system", "system": { "chain": ["client", "AI"], "method": ["none", "prompt"], "sourcetargets": {"start": 0, "end": 1} } }
+
+C - M
+{"target": "system", "system": { "chain": ["client", "memory"], "method": ["none", "get"], "sourcetargets": {"start": 0, "end": 1} } }
+
+Config C -> M -> C 
+{"target": "system", "type": "config", "system": { "chain": ["client", "memory", "client"], "method": ["none", "config", "none"], "sourcetargets": {"start": 0, "end": 1} } }
+
+respond with two packets. The first packet message should say hi to the room. the second packet should tell me the time of the day.
+
+respond with two or three packets. The first packet message should say hi to the room. the second packet should tell me the time of the day. Make the direction be response for all the packets
+

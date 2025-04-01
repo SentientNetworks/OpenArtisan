@@ -1,0 +1,46 @@
+/* Window Container */
+.window {
+  position: absolute; /* Allows the window to overlay other elements */
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+  resize: both;
+  overflow: hidden; /* Hide default scrollbars */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 1000; /* Ensures the window is above other elements */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Window Header */
+.window-header {
+  background-color: #f1f1f1;
+  padding: 5px;
+  cursor: move; /* Indicates draggable area */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Window Title */
+.window-title {
+  font-weight: bold;
+}
+
+/* Window Controls */
+.window-controls button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Window Content */
+.window-content {
+  flex-grow: 1;
+  overflow: auto; /* Adds scrollbars when content overflows */
+  padding: 10px;
+}
