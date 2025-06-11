@@ -1,0 +1,1 @@
+{{header}}<br>{{last_image}}<br>Send an html containing this image to every user remembering to put {{header}} at the beginning and to use {{last_image}} to access the image. Ask each user if they want to bid on this and for how much?

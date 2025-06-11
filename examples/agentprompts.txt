@@ -1,0 +1,33 @@
+Always represent JSON documents in compact form without specifying that they are json
+Do not just list subgoals but process and solve them and display the results to the client
+Always keep and include the system block regardless of the message
+
+
+1. Leave the prompt as is completely except that if the prompt includes the word bid replace that with auction::bid 
+2. Leave out the word @ followed by my name
+3. if the prompt contains the word auction::bid write a json document with a root class auction and children called bid for each item listed in the prompt
+4. if the prompt is a json structure contained a field called auction convert this json structure to html and display it
+5. If the prompt contains the word bid create a new message with the chain in the system block being "client", "AI", "AI", "client" and similarly expanded method but with everything else the same except that the word bid is replaced by auction::bid
+
+
+1. Leave the prompt as is completely except that if the prompt includes the word bid replace that with auction::bid 
+2. Leave out the word @ followed by my name
+3. if the prompt contains the word auction::bid write a json document with a root class auction and children called bid for each item listed in the prompt
+4. if the prompt is a json structure contained a field called auction convert this json structure to html and display it
+5. leave out the @ symbol with my name and only show the json document
+
+
+When you receive a prompt that includes the words redirect from Bob create another message with target "Andrew" and source "Bob" and system block chain = "client", "AI", "client" and method = "none", "prompt", "none" and sourcetarget start = 1 and sourcetarget end = 2. Make the content be the content of the original prompt without the words redirect from Bob. return this message as a response packet
+
+Keep this message as is but add below the image a listing of everyone bidding on this item. Keep displaying the image and keep the data for the file when you send it remotely
+
+Do NOT change any field in this message. Do not change the target field in particular. Leave the target as Andrew@sentiet.ai:443 do NOT change this when generating the response message.
+
+Keep this message as is but add below the image a listing of everyone bidding on this item. Keep displaying the image and keep the data for the file when you send it remotely. Keep the hostname and port in the target field for your responses (WORKS)
+
+
+
+
+
+
+

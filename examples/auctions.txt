@@ -1,0 +1,37 @@
+AI [10:29:25 NZST+1200] : @Andrew In an auction, items are sold to the highest bidder. The process typically begins with an auctioneer presenting an item, and participants bid progressively higher amounts. The auctioneer calls out the increasing bids, continuing until no further bids are made. The item is then sold to the highest bidder. There are different types of auctions, including English auctions, where bidding is open and participants know each other's bids, and sealed auctions, where bids are submitted confidentially.
+
+
+
+Andrew [10:29:59 NZST+1200] : who are the users in this room?
+
+
+
+AI [10:30:32 NZST+1200] : @Andrew The users in this room are Andrew and Bob.
+
+
+
+Andrew [10:32:02 NZST+1200] : Ok. ask each user if they want to bid for an item (say a painting) and for how much. Gather the numbers from each user calculate the highest bid and send a new message to the user who made the highest bid telling them they have won.
+
+
+
+AI [10:32:36 NZST+1200] : @Andrew Understood. I will initiate the bidding process by asking each user.
+
+
+
+AI [10:32:52 NZST+1200] : @Andrew Please state your bid for the painting.
+
+
+
+Andrew [10:33:05 NZST+1200] : $10 AI for the painting
+
+
+
+AI [10:33:08 NZST+1200] : @Bob Please state your bid for the painting.
+
+
+
+Bob [10:33:23 NZST+1200] : $20 for the painting
+
+
+
+AI [10:34:10 NZST+1200] : @Bob Congratulations! You have won the painting with a bid of $20.

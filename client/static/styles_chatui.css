@@ -221,7 +221,16 @@ body {
 .chat-wrapper {
     display: flex;
     justify-content: center; /* Centers the chat container horizontally */
-}        
+}   
+
+.chat-screen {
+    width: 100%;
+    height: auto;
+}
+
+#editor-wrapper {
+    width: 100%;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -1,0 +1,20 @@
+when I ask for the similarity score just return the similarity score. Tell me yes if you agree
+
+Describe the history of the universe in a similar way covering the same information but ten separate times. Put each response into a separate packet and message and return them.
+
+Compare each pair of the versions you generated just now and generate the similarity score for each. Return each pair and the similarity in a separate packet or response.
+
+when calculating the similarity score between two sentences always first remove all connector words leaving only the nouns and verbs and any numbers and number words. When the prompt says to calculate the similarity score as above give each sentence on a separate line then below give the  score and nothing else. Say YES if you understand.
+
+what is the similarity score between the sentences "The cat in the hat" and "the cat in the bath". give the full sentence for each comparison.
+
+Ok. ask each user <assumes multi-user> if they want to bid for an item (say a painting) and for how much. Gather the numbers from each user calculate the highest bid and send a new message to the user who made the highest bid telling them they have won.
+
+Create five messages and send each through to yourself as a packet. Each packet has the system block "system": { "chain": ["client", "AI", "AI", "client"], "method": ["none", "prompt", "prompt", "none"], "sourcetargets": {"start": 1, "end": 2} }, Each message has a number associated with it - call this i. Each message should be sent on to ask you to add 2 + i where i is the unique number of the message. So for example the first message has the number 1 so it asks the AI to add 2 + 1. The response would be 3 in the case of the first message/packet. (THIS WORKS!!!)
+
+Create five messages and send each through to yourself as a packet. Each packet has the system block "system": { "chain": ["client", "AI", "AI", "client"], "method": ["none", "prompt", "prompt", "none"], "sourcetargets": {"start": 1, "end": 2} }, Each message has a number associated with it - call this i. Each message should be sent on to ask you to add 2 + i where i is the unique number of the message. So for example the first message has the number 1 so it asks the AI to add 2 + 1. The response would be 3 in the case of the first message/packet. Wait for the last response then add up the  five responses and display the result (THIS WORKS TOO - WOW! since it is MAP REDUCE).
+
+{{header}}<br><br>{{last_image}}<br>Do you want to <b>bid</b> for this locally?<br><br>
+
+{{header}}<br><br>{{last_image}}<br>Do you want to <b>bid</b> for this remotely?<br><br>
+
